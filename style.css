@@ -415,6 +415,10 @@ span{
     html{
         font-size: 55%;
     }
+
+    .portfolio-layer p a{
+        margin-right: 30rem;
+    }
 }
 
 @media(max-width:991px){
@@ -424,6 +428,10 @@ span{
 
    section{
     padding: 10rem 3% 2rem;
+   }
+
+   .footer{
+    padding: 2rem 3%;
    }
 
    .services{
@@ -543,5 +551,25 @@ span{
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+}
+
+@media(max-width: 260px){
+    html{
+        font-size: 50%;
+    }
+
+    .home-img img{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .about-img img{
+        width: 80vw;
+        height: 80vw;
+    }
+    
+    .contact form .input-box input{
+        width: 100%;
     }
 }
